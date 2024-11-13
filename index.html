@@ -126,41 +126,9 @@
         </div>
       </div>
     </section>
-    <script>
-      // Countdown target date
-      const targetDate = new Date("December 28, 2024 00:00:00").getTime();
     
-      const countdownTimer = setInterval(() => {
-        const now = new Date().getTime();
-        const timeRemaining = targetDate - now;
-        const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-    
-        document.getElementById("days").innerText = days;
-        document.getElementById("hours").innerText = hours;
-        document.getElementById("minutes").innerText = minutes;
-        document.getElementById("seconds").innerText = seconds;
-    
-        if (timeRemaining < 0) {
-          clearInterval(countdownTimer);
-          document.querySelector(".countdown-section").innerHTML = "<h3>Countdown has ended!</h3>";
-        }
-      }, 1000);
-    </script>
-    
-    <section id="countdown" class="countdown-section">
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="50">
-        <h2>Countdown To PKL XIIV</h2>
-        <div class="countdown">
-          <div><span id="days"></span> Days</div>
-          <div><span id="hours"></span> Hours</div>
-          <div><span id="minutes"></span> Minutes</div>
-          <div><span id="seconds"></span> Seconds</div>
-        </div>
-      </div>
-    </section>
+    <br /><center><script src="https://cdn.logwork.com/widget/countdown.js"></script>
+      <a href="https://logwork.com/countdown-timer" class="countdown-timer" data-textcolor="black" data-date="2024-12-12 23:00" data-background="blue" data-digitscolor="white" data-unitscolor="white"><b>Deadline </b></a></center>
     
     <section id="timeline">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -288,6 +256,26 @@
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
+    <h2>CONTACT PERSON</h2>
+    <div><span>LANGSUNG HUBUNGI INI</span> <span class="description-title">..LANGSUNG !!</span></div>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="col-md-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+      <!-- Correct anchor tag wrapping the button -->
+      <a href="https://wa.me/085791247720" download="Persyaratan_PKL.pdf">
+        <button class="download-btn">Whatsapp</button>
+      </a>
+    </div>
+  </div>
+
+</section><!-- /Team Section -->
+
+<!-- Team Section -->
+<section id="team" class="team section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
     <h2>PANITIA PKL</h2>
     <div><span>KEPANITIAAN</span> <span class="description-title">PKL</span></div>
   </div><!-- End Section Title -->
@@ -302,8 +290,6 @@
   </div>
 
 </section><!-- /Team Section -->
-
-
 
   </main>
 
@@ -330,7 +316,7 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Berkas Persyaratan</h4>
+          <h4><b>BERKAS PERSYARATAN</b></h4>
           <ul>
             <li><a href="#">Surat Pernyataan</a></li>
             <li><a href="#">Term Of Reference</a></li>
@@ -339,28 +325,22 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Informasi Lain</h4>
+          <h4><b>INFORMASI LAIN</h4></b>
           <ul>
             <li><a href="#">SK Kepanitiaan PKL XXIV</a></li>
           </ul>
         </div>
 
-        <!-- <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
-        </div> -->
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4><b>LOKASI KAMI</h4></b>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d703.7158646469409!2d112.61923897909284!3d-7.953260045962785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788278749fab4b%3A0x866d43c4193686c6!2sJl.%20Mayjend%20Panjaitan%20No.164%2C%20Penanggungan%2C%20Kec.%20Klojen%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065113!5e0!3m2!1sid!2sid!4v1731510419206!5m2!1sid!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Bootslander</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">PMII KOTA MALANG</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
